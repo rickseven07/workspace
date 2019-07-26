@@ -1,0 +1,25 @@
+.zoomEffect {
+
+    animation-duration: 5s;
+    animation-name: translate; 
+   
+    }  
+   
+   @keyframes translate {  
+
+   from {         
+      
+       margin-left: 0%;
+       width: 10%;    
+    }     
+   
+    30% {  
+       width: 25%;     
+         }     
+        
+   to {         
+        margin-left: 90%;         
+        width: 10%;     
+       } 
+
+}
